@@ -23,17 +23,13 @@
 function deployOnFriday() {
   try {
     pushToProd();
-
   } catch (disaster) {
     blameTheIntern();
-
   }
 
   if (bossIsWatching) {
     pretendToWork();
-
   } else {
-    watchMemes(); 
-    
+    watchMemes();
   }
 }

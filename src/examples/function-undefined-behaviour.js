@@ -7,6 +7,7 @@
  * @author Daniel Martínez Sopo
  * @author Marco Aguiar Álvarez
  * @author Diego García Hernández
+ * @desc Shows the behaviour of a function with an empty return or no return
  * @since Feb 01 2026
  */
 

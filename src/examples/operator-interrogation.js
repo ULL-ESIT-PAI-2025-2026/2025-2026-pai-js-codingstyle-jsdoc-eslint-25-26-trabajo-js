@@ -13,9 +13,11 @@
  */
 
 
-consola.log( 0 || 100 );
+console.log( 0 || 100 );
  // → 100 
-consola.log( 0 ?? 100 );
+console.log( 0 ?? 100 );
  // → 0 
-consola.log( null ?? 100 );
+console.log( null ?? 100 );
+ // → 100
+console.log( undefined ?? 100);
  // → 100

@@ -8,13 +8,15 @@
  * @author Marco Aguiar Álvarez
  * @author Diego García Hernández
  * @since Jan 30 2026
- * @desc Shows the execution order of declarative functions.
+ * @desc Uses the paradox of chicken or egg to show stack overflow
  *
  */
+'use strict'
 
-
-console.log("Future says:", future());
-
-function future() {
-  return "You will pass PAI";
+function chicken() {
+  return egg();
 }
+function egg() {
+  return chicken();
+}
+console.log(chicken() + " went first.");

@@ -8,15 +8,16 @@
  * @author Marco Aguiar Álvarez
  * @author Diego García Hernández
  * @since Jan 30 2026
- * @desc Uses the paradox of chicken or egg to show stack overflow
+ * @desc Shows the behaviour of closure in functions.
  *
  */
+'use strict'
 
+function multiplier(factor) {
+  return number => number * factor;
+}
 
-function chicken() {
-  return egg();
-}
-function egg() {
-  return chicken();
-}
-console.log(chicken() + " went first.");
+let twice = multiplier(2);
+let trice = multiplier(3);
+console.log(twice(5));
+console.log(trice(4));

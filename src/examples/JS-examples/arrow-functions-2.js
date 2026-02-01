@@ -12,6 +12,8 @@
  *
  */
 
+'use strict'
+
 console.log('with .map()');
 
 let input = [1, 2, 3];

@@ -10,7 +10,7 @@
  * @desc Shows the behaviour of the key word var.
  * @since Feb 01 2026
  */
-
+'use strict'
  
 let x = 10;   // global
 

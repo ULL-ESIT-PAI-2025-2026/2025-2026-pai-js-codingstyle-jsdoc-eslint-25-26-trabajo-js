@@ -9,9 +9,10 @@
  * @author Diego García Hernández
  * @since Feb 01 2026
  */
+'use strict'
 
-const name = 'Alex'
-const surname = 'Smith';
+const name = 'Alan'
+const surname = 'Turing';
 
 console.log(name)
 console.log(surname);

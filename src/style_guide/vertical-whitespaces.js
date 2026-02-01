@@ -9,7 +9,7 @@
  * @author Diego García Hernández
  * @since Feb 01 2026
  */
-
+'use strict'
 
 // Example of a mandatory blank line
 class User {

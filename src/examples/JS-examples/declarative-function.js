@@ -8,16 +8,13 @@
  * @author Marco Aguiar Álvarez
  * @author Diego García Hernández
  * @since Jan 30 2026
- * @desc Shows the behaviour of closure in functions.
+ * @desc Shows the execution order of declarative functions.
  *
  */
+'use strict'
 
+console.log("Future says:", future());
 
-function multiplier(factor) {
-  return number => number * factor;
+function future() {
+  return "You will pass PAI";
 }
-
-let twice = multiplier(2);
-let trice = multiplier(3);
-console.log(twice(5));
-console.log(trice(4));

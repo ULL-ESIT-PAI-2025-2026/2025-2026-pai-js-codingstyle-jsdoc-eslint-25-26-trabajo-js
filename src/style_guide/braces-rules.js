@@ -19,6 +19,7 @@
  *   same line as }
  *
  */
+'use strict'
 
 function deployOnFriday() {
   try {

@@ -11,7 +11,7 @@
  * @desc Shows how to use JSDoc comments
  *
  */
-
+'use strict'
 
 /**
  * @desc This function prints 'Hello, World!'

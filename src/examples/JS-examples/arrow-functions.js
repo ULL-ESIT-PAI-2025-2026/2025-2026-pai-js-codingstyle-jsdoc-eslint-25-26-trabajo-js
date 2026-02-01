@@ -11,6 +11,7 @@
  * @desc Shows distinct types of syntaxis of the arrow functions.
  *
  */
+'use strict'
 
 const roundTo = (n, step) => {
   let remainder = n % step;

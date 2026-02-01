@@ -9,7 +9,7 @@
  * @author Diego García Hernández
  * @since Feb 01 2026
  */
-
+'use strict'
 
 // Correct: breaking the line in asignation and in division.
 let currentEstimate = 

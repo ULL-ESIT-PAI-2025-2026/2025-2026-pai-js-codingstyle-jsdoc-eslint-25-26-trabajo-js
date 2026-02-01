@@ -11,10 +11,10 @@
  * @desc Shows the execution flow.
  *
  */
+'use strict'
 
-
-function saludar(quien) {
-  console.log("Hola " + quien);
+function greet(who) {
+  console.log("Hi " + who);
 }
-saludar("Harry");
-console.log("Adiós");
+greet("Mawi");
+console.log("Bye");

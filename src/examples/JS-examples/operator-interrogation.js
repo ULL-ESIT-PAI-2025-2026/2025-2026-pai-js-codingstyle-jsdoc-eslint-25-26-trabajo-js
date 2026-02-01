@@ -11,7 +11,7 @@
  * @desc Shows the behaviour of the ?? operator.
  *
  */
-
+'use strict'
 
 console.log( 0 || 100 );
  // → 100 

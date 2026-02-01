@@ -10,5 +10,10 @@
  * @since Feb 01 2026
  */
 
+ 
+let x = 10;   // global
 
-let variable = "Hello world!"
+if (true) {
+  let y = 20; // local al bloque
+  var z = 30; // también global
+}

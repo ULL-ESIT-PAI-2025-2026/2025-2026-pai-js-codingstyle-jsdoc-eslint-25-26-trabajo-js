@@ -40,7 +40,7 @@ function maximum (numbers) {
  */
 function processInput () {
   const fs = require('fs')
-  const input = fs.readFileSync(0, 'utf8').trim().split(/\s+/).map(Number);
+  const input = fs.readFileSync(0, 'utf8').split(/\s+/).map(Number);
   let result = maximum(input);
   console.log(result);
 }

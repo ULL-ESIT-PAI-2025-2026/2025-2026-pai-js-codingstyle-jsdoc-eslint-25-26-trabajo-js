@@ -11,3 +11,11 @@
  * @desc Shows the behaviour of the ?? operator.
  *
  */
+
+
+consola.log( 0 || 100 );
+ // → 100 
+consola.log( 0 ?? 100 );
+ // → 0 
+consola.log( null ?? 100 );
+ // → 100

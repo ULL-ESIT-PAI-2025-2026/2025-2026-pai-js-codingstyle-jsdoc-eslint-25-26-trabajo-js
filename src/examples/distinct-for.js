@@ -15,13 +15,13 @@
 'use strict'
 
 function forIn(list) {
-  for (let memberId in list) {
+  for (let memberId in list) { // index
     console.log(memberId);
   }
 }
 
 function forOf(list) {
-  for (let memberValue of list) {
+  for (let memberValue of list) { // value
     console.log(memberValue);
   }
 }

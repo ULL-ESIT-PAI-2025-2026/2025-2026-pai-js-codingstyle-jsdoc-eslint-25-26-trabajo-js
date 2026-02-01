@@ -12,22 +12,22 @@
 
 'use strict'
 
-function pow(x, n) {
+function pow(number, exponent) {
   let result = 1;
 
-  for (let i = 0; i < n; i++) {
-    result *= x;
+  for (let i = 0; i < exponent; i++) {
+    result *= number;
   }
 
   return result;
 }
 
-let x = prompt("x?", "");
-let n = prompt("n?", "");
+let number = prompt("number?", "");
+let exponent = prompt("exponent?", "");
 
-if (n <= 0) {
-  console.log(`Power ${n} is not supported,
+if (exponent <= 0) {
+  console.log(`Power ${exponent} is not supported,
     please enter an integer number greater than zero`);
 } else {
-  console.log( pow(x, n) );
+  console.log( pow(number, exponent) );
 }

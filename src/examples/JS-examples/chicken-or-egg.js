@@ -19,4 +19,4 @@ function chicken() {
 function egg() {
   return chicken();
 }
-console.log(chicken() + " went first.");
+console.log(chicken() + ' went first.');

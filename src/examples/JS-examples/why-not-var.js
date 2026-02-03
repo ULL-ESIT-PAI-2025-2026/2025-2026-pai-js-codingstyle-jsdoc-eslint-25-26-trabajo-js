@@ -12,15 +12,15 @@
  */
 'use strict'
  
-let x = 10;   // global
+const GLOBALNUM = 10;   // global
 
 if (true) {
-  let y = 20; // local 
-  var z = 30; // global
+  let localNum = 20; // local 
+  var globalVar = 30; // global
 }
 
-console.log(y);
-console.log(z);
+console.log(localNum);
+console.log(globalVar);
 
 function dummy () {
   var invisible = 40; // only in function

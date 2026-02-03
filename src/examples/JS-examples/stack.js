@@ -14,7 +14,7 @@
 'use strict'
 
 function greet(who) {
-  console.log("Hi " + who);
+  console.log('Hi ' + who);
 }
-greet("Mawi");
-console.log("Bye");
+greet('Mawi');
+console.log('Bye');

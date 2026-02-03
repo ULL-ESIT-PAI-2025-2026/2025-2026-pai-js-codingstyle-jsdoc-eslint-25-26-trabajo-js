@@ -13,8 +13,8 @@
  */
 'use strict'
 
-console.log("Future says:", future());
+console.log('Future says:', future());
 
 function future() {
-  return "You will pass PAI";
+  return 'You will pass PAI';
 }

@@ -13,12 +13,12 @@
  */
 'use strict'
 
-const roundTo = (n, step) => {
-  let remainder = n % step;
-  return n - remainder + (remainder < step / 2 ? 0 : step);
+const isEven = n => {
+  if (n % 2 === 0) return true;
+  return false;
 };
 
-console.log(roundTo(4.5, 1));
+console.log(isEven(4));
 
 const exponente1 = (x) => { return x * x; }; //No haga esto, no cumple guía de estilo
 const exponente2 = x => x * x;
@@ -27,7 +27,7 @@ console.log(exponente1(2));
 console.log(exponente2(2));
 
 const cuerno = () => {
-  console.log("Toot");
+  console.log('Toot');
 };
 
 cuerno();

@@ -1,3 +1,3 @@
 # slides
 
-Includes a copy (PDF) of the slides of our project presentation
+Includes the slides of our project presentation in PDF format.

@@ -12,6 +12,7 @@
 ### Introduction
 
 This repository main purpose is to upgrade your JavaScript knowledge, it also contains materials related to best practices in JavaScript, including code style, documentation with JSDoc, and static analysis with ESLint.
+
 ---
 
 ### Repository Structure
@@ -46,13 +47,13 @@ The [Google Style Guide](https://google.github.io/styleguide/jsguide.html) provi
 
 ```js
 /**
- * Adds two numbers.
- * @param {number} numer1 - First number.
- * @param {number} number2 - Second number.
- * @returns {number} Sum of the numbers.
+ * Divides two numbers.
+ * @param {number} num - Numerator.
+ * @param {number} den - Denominator.
+ * @returns {number} Divison of the numbers.
  */
-function add(number1, number2) {
-  return number1 + number2;
+function div(num, den) {
+  return num + den;
 }
 ```
 ### [ESlint](https://github.com/ULL-ESIT-PAI-2025-2026/2025-2026-pai-js-codingstyle-jsdoc-eslint-25-26-trabajo-js/tree/master/src/examples/ESLint)

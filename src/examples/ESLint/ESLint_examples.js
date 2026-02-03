@@ -4,7 +4,7 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas 2021-2022
  *
- * @author Diego García Hernández, Daniel Martínez Sopo, Marco Aguilar Álvarez 
+ * @author Diego García Hernández, Daniel Martínez Sopo, Marco Aguilar Álvarez
  * @since 31/01/2026
  * @desc ESLint example
  *       The program shows how to use ESLint to follow a coding style guide
@@ -13,18 +13,48 @@
 
 'use strict';
 
-function suma(a, b) { // Missing closing parenthesis
+
+/**
+ * @desc this function add 2 numbers
+ *
+ * @param {Number} a
+ * @param {Number} b
+ * @returns {Number} returns a plus b
+ */
+function suma(a, b) {
   return a + b;
 }
 
+/**
+ * @desc this function sub 2 numbers
+ * @param {Number} a
+ * @param {Number} b
+ * @returns a - b
+ */
 function resta(a, b) {
   return a - b;
 }
 
+
+/**
+ * @desc this function multiply 2 numbers
+ *
+ * @param {Number} a
+ * @param {Number} b
+ * @returns {Number} a * b
+ */
 function multiplica(a, b) {
   return a * b;
 }
 
+
+/**
+ * @desc this function divide 2 numbers
+ *
+ * @param {Number} a
+ * @param {Number} b
+ * @returns {Number} a / b
+ */
 function divide(a, b) {
   if (b = 0) { // Assignment instead of comparison
     throw new Error('No se puede dividir por cero');
@@ -32,10 +62,18 @@ function divide(a, b) {
   return a / b;
 }
 
+/**
+ * @desc this function calculates the square of n
+ * @param {Number} n
+ * @returns n^2
+ */
 function cuadrado(n) {
   return n * n;
 }
 
+/**
+ * @desc this function does nothing
+ */
 function foo() {
   a = 5; // global variable without declaration
 }

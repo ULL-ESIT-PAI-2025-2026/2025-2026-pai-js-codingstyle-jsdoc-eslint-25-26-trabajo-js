@@ -26,8 +26,8 @@ function foo() {
 /**
  * @desc This function calculates the square of number
  *
- * @param number number to be squared
- * @returns {number} square of variable number
+ * @param {Number} number to be squared
+ * @returns {Number} square of variable number
  */
 function square(number) {
   return number * number;

@@ -22,7 +22,7 @@ function pow(x,n) //1. Missing space afetr comma, 8. Incorrect variable naming
 let x=prompt("x?",''), n=prompt("n?",'') // 3. no space arround '=' , 5. mutiple declarations in the same line, 8. Incorrect variable naming 
 if (n<=0) // 3. no space arround <=
 { // 2. Brace is not in the same line as statement
-console.log(`Power ${n} is not supported, please enter an integer number greater than zero`); //6. No indentation, 7 More than 80 characters in the smae line
+console.log(`Power ${n} is not supported, please enter an integer number greater than zero`); //6. No indentation, 7 More than 80 characters in the same line
 }
 else
 { // 2. Brace is not in the same line as statement

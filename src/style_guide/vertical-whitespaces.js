@@ -11,7 +11,7 @@
  */
 'use strict'
 
-// Example of a mandatory blank line
+//Example of a mandatory blank line
 class User {
   login() {
     // ...
@@ -23,15 +23,36 @@ class User {
   }
 }
 
-// example NOT TO do
+//Example of object literal
+const userProfile = {
+  //User Info
+  userName: 'AlanTuring',
+  level: 42,
+  isOnline: 'false',
+
+  //Contact methods
+  email: 'alan.turing.67@ull.edu.es',
+  number: 676967420,
+  xAccount: '@alanturing67' 
+};
+
+//Example NOT TO do
 function calculate() {
   // NOT HERE!
   
   let x = 10;
   let y = 20;
  
-  // OPTIONAL: Logical separation
-  return x + y;
+  
+  return x + y; // OPTIONAL: Logical separation
 
-  // NEITHER HERE!
+  // NEITHER HERE! 
+}
+
+//Correct use
+function calculate() {
+  let x = 10;
+  let y = 20;
+              
+  return x + y; // OPTIONAL: Logical separation
 }

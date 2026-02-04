@@ -31,5 +31,4 @@ for (let i = 0; i < 5; i++) {
 }
 
 // EXCEPTION: simple if with no else statement 
-if (isEmpty) return null;
-
+if (Array.length < 1) return null;

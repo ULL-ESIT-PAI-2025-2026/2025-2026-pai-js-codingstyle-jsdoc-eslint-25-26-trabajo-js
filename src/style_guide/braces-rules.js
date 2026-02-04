@@ -15,8 +15,8 @@
  * - The line is broken just after {
  * - The line is broken just after the last line inside the block
  * - The line is broken just after }, unless it is a logical continuation, that is, 
- *   an `else`, `catch`, or `while` statement in a `do-while` statement. If there is one of these, it is left on the 
- *   same line as }
+ *   an `else`, `catch`, or `while` statement in a `do-while` statement. If there is one of these, 
+ *   it is left on the same line as }
  *
  */
 'use strict'

@@ -26,8 +26,8 @@ let number = prompt("number?", "");
 let exponent = prompt("exponent?", "");
 
 if (exponent <= 0) {
-  console.log(`Power ${exponent} is not supported,
-    please enter an integer number greater than zero`);
+  console.log(`Power ${exponent} is not supported,`
+      + `please enter an integer number greater than zero`);
 } else {
   console.log( pow(number, exponent) );
 }

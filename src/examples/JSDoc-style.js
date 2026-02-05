@@ -22,7 +22,6 @@ function foo() {
   return 'Hello, World!';
 }
 
-
 /**
  * @desc This function calculates the square of number
  *
@@ -32,7 +31,6 @@ function foo() {
 function square(number) {
   return number * number;
 }
-
 
 function main() {
   console.log(foo());

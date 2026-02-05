@@ -10,7 +10,8 @@
  * @desc Shows the behaviour of the key word var.
  * @since Feb 01 2026
  */
-'use strict'
+
+'use strict';
  
 const GLOBALNUM = 10;   // global
 
@@ -19,12 +20,9 @@ if (true) {
   var globalVar = 30; // global
 }
 
-console.log(localNum);
-console.log(globalVar);
-
 function dummy () {
   var invisible = 40; // only in function
   console.log(invisible);
 }
 
-console.log(invisible);
+console.log(invisible); // not accessible

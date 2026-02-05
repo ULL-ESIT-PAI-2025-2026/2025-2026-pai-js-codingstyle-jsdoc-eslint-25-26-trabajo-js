@@ -19,7 +19,8 @@
  *   it is left on the same line as }
  *
  */
-'use strict'
+
+'use strict';
 
 function deployOnFriday() {
   try {

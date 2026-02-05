@@ -9,7 +9,8 @@
  * @author Diego García Hernández
  * @since Feb 01 2026
  */
-'use strict'
+
+'use strict';
 
 prefix.something.reallyLongFunctionName('whatever', (a1, a2) => {
   // Indent the function body +2 relative to indentation depth

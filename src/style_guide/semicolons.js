@@ -9,7 +9,8 @@
  * @author Diego García Hernández
  * @since Feb 01 2026
  */
-'use strict'
+
+'use strict';
 
 const name = 'Alan'
 const surname = 'Turing';

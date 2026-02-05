@@ -10,7 +10,7 @@
  * @since Feb 01 2026
  */
 
-'use strict'
+'use strict';
 
 function pow(x,n)
 {

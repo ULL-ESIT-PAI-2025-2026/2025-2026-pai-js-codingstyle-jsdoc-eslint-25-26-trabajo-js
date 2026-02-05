@@ -3,6 +3,6 @@
     "@eslint/eslintrc": "^3.3.3",
     "eslint": "^9.39.2",
     "eslint-config-google": "^0.14.0",
-    "globals": "^17.2.0"
+    "globals": "^17.3.0"
   }
 }

@@ -11,20 +11,17 @@
  * @desc Shows distinct types of syntaxis of the arrow functions.
  *
  */
-'use strict'
 
-const isEven = n => {
-  if (n % 2 === 0) return true;
+'use strict';
+
+const isEven = operand => {
+  if (operand % 2 === 0) return true;
   return false;
 };
 
-console.log(isEven(4));
+const exponente1 = (x) => { return x * x; }; // No haga esto, no cumple guía de estilo
 
-const exponente1 = (x) => { return x * x; }; //No haga esto, no cumple guía de estilo
 const exponente2 = x => x * x;
-
-console.log(exponente1(2));
-console.log(exponente2(2));
 
 const cuerno = () => {
   console.log('Toot');

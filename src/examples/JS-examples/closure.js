@@ -11,13 +11,20 @@
  * @desc Shows the behaviour of closure in functions.
  *
  */
-'use strict'
+
+'use strict';
 
 function multiplier(factor) {
   return number => number * factor;
 }
 
 let twice = multiplier(2);
-let trice = multiplier(3);
-console.log(twice(5));
-console.log(trice(4));
+
+let thrice = multiplier(3);
+
+function intiator() {
+  console.log(twice(5));
+  console.log(thrice(4));
+}
+
+intiator();

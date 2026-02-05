@@ -29,6 +29,4 @@ function main() {
   console.log(typeof firstResult, typeof secondResult);
 }
 
-if (require.main === module) {
-  main();
-}
+main();

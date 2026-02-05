@@ -12,7 +12,7 @@
  *
  */
 
-'use strict'
+'use strict';
 
 function maxWithoutSpread(list) {
   console.log(Math.max(list));

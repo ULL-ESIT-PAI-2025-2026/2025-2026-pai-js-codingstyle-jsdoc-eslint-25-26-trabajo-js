@@ -19,7 +19,6 @@
 
 const MINIMAL = -Infinity;
 
-
 /**
  * Reads as many numbers as given and returns the maximum.
  * @param {array} numbers- The numbers given to the function
@@ -28,7 +27,6 @@ const MINIMAL = -Infinity;
 function maximum (numbers) {
   let max = MINIMAL;
   for (let number of numbers) {
-   console.log(number);
    if (number > max) max = number;
   }
   return max;
@@ -38,11 +36,11 @@ function maximum (numbers) {
  * @desc Processes the input by storing each element in an array, its trimmed for no empty chains '', and each element is 
  *       turned into a number by the .map(Number)
  */
-function processInput () {
+function entryPoint () {
   const fs = require('fs')
   const input = fs.readFileSync(0, 'utf8').split(/\s+/).map(Number);
   let result = maximum(input);
   console.log(result);
 }
 
-processInput();
+entryPoint();

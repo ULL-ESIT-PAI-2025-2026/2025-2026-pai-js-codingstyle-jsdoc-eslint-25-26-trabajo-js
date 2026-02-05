@@ -11,13 +11,18 @@
  * @desc Shows the behaviour of the ?? operator.
  *
  */
-'use strict'
 
-console.log( 0 || 100 );
- // → 100 
-console.log( 0 ?? 100 );
- // → 0 
-console.log( null ?? 100 );
- // → 100
-console.log( undefined ?? 100);
- // → 100
+'use strict';
+
+function start() {
+  console.log( 0 || 100 );
+  // → 100 
+  console.log( 0 ?? 100 );
+  // → 0 
+  console.log( null ?? 100 );
+  // → 100
+  console.log( undefined ?? 100);
+  // → 100
+}
+
+start();

@@ -11,12 +11,19 @@
  * @desc Uses the paradox of chicken or egg to show stack overflow
  *
  */
-'use strict'
+
+'use strict';
 
 function chicken() {
   return egg();
 }
+
 function egg() {
   return chicken();
 }
-console.log(chicken() + ' went first.');
+
+function entryPoint() {
+  console.log(chicken() + ' went first.');
+}
+
+entryPoint();

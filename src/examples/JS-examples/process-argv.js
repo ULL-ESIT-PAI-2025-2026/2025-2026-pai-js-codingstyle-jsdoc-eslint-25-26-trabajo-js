@@ -12,14 +12,12 @@
  *
  */
 
+'use strict';
 
-'use strict'
-
-function processArguments(arg) {
-  for (let i in arg) {
-    console.log(i + ' = ' + arg[i]);
+function processArguments(parameters) {
+  for (let argument in parameters) {
+    console.log(argument + ' = ' + parameters[argument]);
   }
 }
-
 
 processArguments(process.argv);

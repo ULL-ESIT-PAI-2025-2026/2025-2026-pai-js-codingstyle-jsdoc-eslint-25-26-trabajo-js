@@ -11,10 +11,16 @@
  * @desc Shows the execution flow.
  *
  */
-'use strict'
+
+'use strict';
 
 function greet(who) {
   console.log('Hi ' + who);
 }
-greet('Mawi');
-console.log('Bye');
+
+function entryPoint() {
+  greet('Mawi');
+  console.log('Bye');
+}
+
+entryPoint();

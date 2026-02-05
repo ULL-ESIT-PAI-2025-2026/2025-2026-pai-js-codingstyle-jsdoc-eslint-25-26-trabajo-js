@@ -12,22 +12,21 @@
  *
  */
 
-'use strict'
+'use strict';
 
-console.log('with .map()');
+function entryPoint() {
+  let input = [1, 2, 3];
 
-let input = [1, 2, 3];
-let doubled = input.map(x => x * 2);
+  console.log('with .map()');
+  let doubled = input.map(x => x * 2);
+  console.log('original =', input);
+  console.log('doubled =', doubled);
 
-console.log('original =', input);
-console.log('doubled =', doubled);
+  console.log('with .forEach()');
+  input.forEach((x, i) => {
+    input[i] = x * 2;
+  });
+  console.log('original =', input);
+}
 
-
-
-console.log('with .forEach()');
-
-input.forEach((x, i) => {
-  input[i] = x * 2;
-});
-
-console.log('original =', input);
+entryPoint();

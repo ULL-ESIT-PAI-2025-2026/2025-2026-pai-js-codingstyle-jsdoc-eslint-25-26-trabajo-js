@@ -12,7 +12,7 @@
  *
  */
 
-'use strict'
+'use strict';
 
 function forIn(list) {
   for (let memberId in list) { // index

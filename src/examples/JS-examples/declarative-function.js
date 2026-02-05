@@ -11,9 +11,14 @@
  * @desc Shows the execution order of declarative functions.
  *
  */
-'use strict'
 
-console.log('Future says:', future());
+'use strict';
+
+function entryPoint() {
+  console.log('Future says:', future());
+}
+
+entryPoint();
 
 function future() {
   return 'You will pass PAI';

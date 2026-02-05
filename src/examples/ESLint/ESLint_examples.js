@@ -17,77 +17,75 @@
 /**
  * @desc this function add 2 numbers
  *
- * @param {Number} a
- * @param {Number} b
- * @returns {Number} returns a plus b
+ * @param {Number} operand1
+ * @param {Number} operand2
+ * @returns {Number} returns the sum of operand1 and operand2
  */
-function suma(a, b) {
-  return a + b;
+function suma(operand1, operand2) {
+  return operand1 + operand2;
 }
 
 /**
  * @desc this function sub 2 numbers
- * @param {Number} a
- * @param {Number} b
- * @returns a - b
+ * @param {Number} operand1 
+ * @param {Number} operand2
+ * @returns operand1 - operand2
  */
-function resta(a, b) {
-  return a - b;
+function resta(operand1, operand2) {
+  return operand1 - operand2;
 }
-
 
 /**
  * @desc this function multiply 2 numbers
  *
- * @param {Number} a
- * @param {Number} b
- * @returns {Number} a * b
+ * @param {Number} operand1
+ * @param {Number} operand2 
+ * @returns {Number} operand1 * operand2
  */
-function multiplica(a, b) {
-  return a * b;
+function multiplica(operand1, operand2) {
+  return operand1 * operand2;
 }
-
 
 /**
  * @desc this function divide 2 numbers
  *
- * @param {Number} a
- * @param {Number} b
- * @returns {Number} a / b
+ * @param {Number} operand1
+ * @param {Number} operand2
+ * @returns {Number} operand1 / operand2
  */
-function divide(a, b) {
-  if (b = 0) { // Assignment instead of comparison
+function divide(operand1, operand2) {
+  if (operand2 = 0) { // Assignment instead of comparison
     throw new Error('No se puede dividir por cero');
   }
-  return a / b;
+  return operand1 / operand2;
 }
 
 /**
  * @desc this function calculates the square of n
- * @param {Number} n
- * @returns n^2
+ * @param {Number} operand
+ * @returns operand^2
  */
-function cuadrado(n) {
-  return n * n;
+function cuadrado(operand) {
+  return operand * operand;
 }
 
 /**
  * @desc this function does nothing
  */
 function foo() {
-  a = 5; // global variable without declaration
+  variable = 5; // global variable without declaration
 }
 
 function main() {
-  const num1 = 10;
-  const num2 = 5;
+  const operand1 = 10;
+  const operand2 = 5;
 
-  num1 = 'diez'; // Changing constant value
+  operand1 = 'diez'; // Changing constant value
 
-  console.log(`Suma: ${suma(num1, num2)}`);
-  console.log(`Resta: ${resta(num1, num2)}`);
-  console.log(`Multiplica: ${multiplica(num1, num2)}`);
-  console.log(`Divide: ${divide(num1, num2)}`);
+  console.log(`Suma: ${suma(operand1, operand2)}`);
+  console.log(`Resta: ${resta(operand1, operand2)}`);
+  console.log(`Multiplica: ${multiplica(operand1, operand2)}`);
+  console.log(`Divide: ${divide(operand1, operand2)}`);
 
   foo();
   console.log(a); // Using undeclared variable

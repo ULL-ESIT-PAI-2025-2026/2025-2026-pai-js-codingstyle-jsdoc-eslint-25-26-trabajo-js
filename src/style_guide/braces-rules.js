@@ -22,6 +22,9 @@
 
 'use strict';
 
+/**
+ * @desc Simulates deployment workflow with error handling and behavior based on boss presence
+ */
 function deployOnFriday() {
   try {
     pushToProd();

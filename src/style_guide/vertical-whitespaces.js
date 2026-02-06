@@ -41,19 +41,19 @@ const userProfile = {
 function calculate() {
   // NOT HERE!
   
-  let x = 10;
-  let y = 20;
+  let nameOfVariableMeaningful1 = 10;
+  let nameOfVariableMeaningful2 = 20;
  
   
-  return x + y; // OPTIONAL: Logical separation
+  return nameOfVariableMeaningful1 + nameOfVariableMeaningful2; // OPTIONAL: Logical separation
 
   // NEITHER HERE! 
 }
 
-//Correct use
+// Correct use
 function calculate() {
-  let x = 10;
-  let y = 20;
+  let nameOfVariableMeaningful1 = 10;
+  let nameOfVariableMeaningful2 = 20;
               
-  return x + y; // OPTIONAL: Logical separation
+  return nameOfVariableMeaningful1 + nameOfVariableMeaningful2; // OPTIONAL: Logical separation
 }

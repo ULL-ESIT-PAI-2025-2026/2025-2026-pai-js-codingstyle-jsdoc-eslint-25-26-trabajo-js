@@ -16,7 +16,7 @@
 // Correct: breaking the line in asignation and in division.
 let currentEstimate =
     calc(currentEstimate + x * currentEstimate) /
-    2.0;
+        2.0;
 
 // Wrong: breaking the line in the middle of a function call.
 const currentEstimate2 = calc(currentEstimate2 + x *
@@ -33,4 +33,3 @@ const longString = 'This is a very long sentence ' +
 const data = user.getData()
     .toLowerCase()
     .split(',');
-

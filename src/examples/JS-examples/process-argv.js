@@ -9,7 +9,6 @@
  * @author Diego García Hernández
  * @since Jan 30 2026
  * @desc Describe how process.argv works
- *
  */
 
 'use strict';

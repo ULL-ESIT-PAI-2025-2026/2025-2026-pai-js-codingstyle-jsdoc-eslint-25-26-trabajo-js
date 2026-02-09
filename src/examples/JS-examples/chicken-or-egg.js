@@ -9,7 +9,6 @@
  * @author Diego García Hernández
  * @since Jan 30 2026
  * @desc Uses the paradox of chicken or egg to show stack overflow
- *
  */
 
 'use strict';

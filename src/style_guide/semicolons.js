@@ -12,8 +12,12 @@
 
 'use strict';
 
-const name = 'Alan'
-const surname = 'Turing';
+function alwaysUseSemicolons() {
+  const name = 'Alan'
+  const surname = 'Turing';
 
-console.log(name)
-console.log(surname);
+  console.log(name)
+  console.log(surname);
+}
+
+alwaysUseSemicolons();

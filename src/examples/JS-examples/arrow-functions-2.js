@@ -9,20 +9,19 @@
  * @author Diego García Hernández
  * @since Jan 30 2026
  * @desc Second part of the arrow functions examples. Shows .map() and .forEach()
- *
  */
 
 'use strict';
 
 function entryPoint() {
   let input = [1, 2, 3];
-
   console.log('with .map()');
+  // function with .map
   let doubled = input.map(x => x * 2);
   console.log('original =', input);
   console.log('doubled =', doubled);
-
   console.log('with .forEach()');
+  // function with .forEach()
   input.forEach((x, i) => {
     input[i] = x * 2;
   });

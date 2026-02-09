@@ -9,7 +9,6 @@
  * @author Diego García Hernández
  * @since Jan 30 2026
  * @desc Shows distinct types of syntaxis of the arrow functions.
- *
  */
 
 'use strict';

@@ -22,12 +22,10 @@ function lineWrapping() {
   const currentEstimate2 = calc(currentEstimate2 + x *
       currentEstimate2) / 2.0;
   
-  
   // Correct: Breaking the line AFTER the operator 
   const longString = 'This is a very long sentence ' +
       'that needs to be split into ' +
       'multiple parts.';
-  
   
   // EXCEPTION: breaking the line after the ')'
   const data = user.getData()

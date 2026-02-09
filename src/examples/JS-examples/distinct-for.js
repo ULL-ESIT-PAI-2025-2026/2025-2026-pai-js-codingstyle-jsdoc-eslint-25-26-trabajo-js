@@ -9,7 +9,6 @@
  * @author Diego García Hernández
  * @since Jan 30 2026
  * @desc shows how the loop works with “in” and "of"
- *
  */
 
 'use strict';

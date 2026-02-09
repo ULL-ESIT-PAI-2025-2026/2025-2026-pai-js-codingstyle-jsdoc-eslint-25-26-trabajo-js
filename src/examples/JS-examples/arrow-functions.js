@@ -23,8 +23,5 @@ const exponente1 = (x) => { return x * x; }; // No haga esto, no cumple guía de
 const exponente2 = x => x * x;
 
 const cuerno = () => {
-  console.log('Toot');
+  console.log('Horn');
 };
-
-cuerno();
-

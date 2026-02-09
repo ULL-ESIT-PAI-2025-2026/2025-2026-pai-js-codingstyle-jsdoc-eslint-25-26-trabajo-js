@@ -12,13 +12,13 @@
 
 'use strict';
 
-prefix.something.reallyLongFunctionName('whatever', (a1, a2) => {
+prefix.something.reallyLongFunctionName('whatever', (arg1, arg2) => {
   // Indent the function body +2 relative to indentation depth
   // of the 'prefix' statement one line above.
-  if (a1.equals(a2)) {
-    someOtherLongFunctionName(a1);
+  if (arg1.equals(arg2)) {
+    someOtherLongFunctionName(arg1);
   } else {
-    andNowForSomethingCompletelyDifferent(a2.parrot);
+    andNowForSomethingCompletelyDifferent(arg2.parrot);
   }
 });
 

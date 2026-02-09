@@ -24,6 +24,7 @@ function createUser() {
     logAccess();
   }
 }
+
 function createUser2() {
   // Wrong: for statements need always {}
   for (let i = 0; i < 5; i++) console.log(i);

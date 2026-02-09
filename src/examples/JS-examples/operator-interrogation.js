@@ -9,7 +9,6 @@
  * @author Diego García Hernández
  * @since Jan 30 2026
  * @desc Shows the behaviour of the ?? operator.
- *
  */
 
 'use strict';

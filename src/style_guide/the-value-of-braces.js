@@ -27,10 +27,10 @@ function createUser() {
 
 function createUser2() {
   // Wrong: for statements need always {}
-  for (let i = 0; i < 5; i++) console.log(i);
+  for (let i = 0; i < 5; ++i) console.log(i);
 
   // Even if it is just one line, always use {}.
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 5; ++i) {
     console.log(i);
   }
 }

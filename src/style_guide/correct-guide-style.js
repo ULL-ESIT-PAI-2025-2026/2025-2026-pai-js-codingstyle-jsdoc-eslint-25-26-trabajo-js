@@ -20,7 +20,7 @@
  */
 function pow(number, exponent) {
   let result = 1;
-  for (let i = 0; i < exponent; i++) {
+  for (let i = 0; i < exponent; ++i) {
     result *= number;
   }
   return result;

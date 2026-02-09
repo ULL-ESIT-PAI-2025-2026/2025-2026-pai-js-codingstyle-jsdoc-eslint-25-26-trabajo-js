@@ -12,7 +12,6 @@
  *       The program reads three numbers and prints their maximum.
  * @see {@link https://jutge.org/problems/P90615_en}
  * @see {@link https://www.w3schools.com/nodejs/nodejs_filesystem.asp}
- *
  */
 
 'use strict';

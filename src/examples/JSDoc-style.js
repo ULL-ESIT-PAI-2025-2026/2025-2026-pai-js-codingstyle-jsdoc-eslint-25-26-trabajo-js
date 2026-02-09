@@ -9,8 +9,8 @@
  * @author Diego García Hernández
  * @since Jan 30 2026
  * @desc Shows how to use JSDoc comments
- *
  */
+
 'use strict'
 
 /**

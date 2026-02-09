@@ -11,7 +11,6 @@
  * @since Feb 01 2026
  */
 
-
 'use strict';
 
 function noReturn () {
